@@ -19,7 +19,7 @@ class Drink extends React.Component {
 
         return (
             <Segment>
-                <Image src={sodaImage} size='mini' centered />
+                <Image src={'https://i.dlpng.com/static/png/1238556-chips-chips-and-soda-png-800_800_preview.png'} size='mini' centered />
                 <Card.Content>
                     <Card.Header textAlign='center'>{name}</Card.Header>
                     <Card.Meta textAlign='center'>₩ {price}</Card.Meta>
