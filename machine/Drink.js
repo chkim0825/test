@@ -1,6 +1,5 @@
 import React from 'react';
 import { Segment, Card, Icon, Image, Label } from 'semantic-ui-react';
-import sodaImage from './soda.png';
 
 class Drink extends React.Component {
 
@@ -18,7 +17,7 @@ class Drink extends React.Component {
         const { name, price, quantity } = this.state;
 
         return (
-            <Segment>
+            <Segment inverted>
                 <Image src={'https://i.dlpng.com/static/png/1238556-chips-chips-and-soda-png-800_800_preview.png'} size='mini' centered />
                 <Card.Content>
                     <Card.Header textAlign='center'>{name}</Card.Header>

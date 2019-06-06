@@ -1,6 +1,8 @@
 import React from 'react';
 import {Button, Segment, SegmentGroup} from 'semantic-ui-react';
 import Drink from "./Drink";
+import ExitShelf from "./ExitShelf";
+import ButtonPanel from "./ButtonPanel";
 
 class VendingMachine extends React.Component {
 
@@ -19,6 +21,10 @@ class VendingMachine extends React.Component {
                         <SegmentGroup horizontal>
                             <Drink/><Drink/><Drink/><Drink/>
                         </SegmentGroup>
+                    </SegmentGroup>
+                    <ButtonPanel />
+                    <SegmentGroup>
+                            <ExitShelf />
                     </SegmentGroup>
                 </Segment>
             </SegmentGroup>
